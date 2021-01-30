@@ -8,7 +8,6 @@ use App\Models\Kota;
 use App\Models\Kecamatan;
 use App\Models\Kelurahan;
 use App\Models\Rw;
-use App\Models\Kasus;
 
 class Dropdowns extends Component
 {
@@ -18,7 +17,6 @@ class Dropdowns extends Component
     public $kecamatans;
     public $kelurahans;
     public $rws;
-    public $kasus;
 
     public $selectedProvinsi = null;
     public $selectedKota = null;
